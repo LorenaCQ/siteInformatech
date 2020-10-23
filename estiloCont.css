@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	background: #F2F2F2;
+}
+
+body
+{
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+section
+{
+	font-family: Helvetica,Arial,sans-serif;
+}
+
+.img-logo {
+	height: 40px;
+	width: 400px;
+	display: block;
+	background: url('imagens/logo3.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar {
+	padding: 15px 0px;
+	background: rgba(0,6,0,6,0,6,0,6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 4px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9bf0e1;
+}
+
+/*formatacao de letras*/
+
+.texto-titulo
+{
+	text-align: center;
+	color: black;
+	padding-top: 200px;
+}
+
+.texto-conteudo
+{
+	text-align: justify;
+	color: (28,28,28);
+	padding-top: 15px;
+}
+
+h1{
+	font-size: 45px;
+	font-weight: 700px;
+	color: black;
+}
+
+h2{
+	font-size: 20px;
+	color: black;
+	text-align: justify;
+	margin-bottom: 25px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+p
+{
+	font-size: 18px;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: justify;
+}

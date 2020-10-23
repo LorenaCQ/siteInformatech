@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* ========================= layout ======================== */
+html, body, .capa
+{
+	height: 87%;
+}
+
+body {
+	background: url('imagens/capa2.jpeg');
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+}
+/* -- Barra de navegação -- */
+
+.img-logo {
+	height: 80px;
+	width: 200px;
+	display: block;
+	background: url('imagens/logo3.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+	position: absolute;
+	left: 90px;
+}
+
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 4px 15px;
+}
+
+.divisor{
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #9bf0e1;
+}
+
+/* ========================= Imagem de capa ======================== */
+.capa {
+	
+	display: table;
+	width: 100%;
+	background-color: rgba(26, 26, 26, 0.4); /*com opacidade*/
+	filter: contrast(120%);
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+	position: relative;
+	font-size: 80px;
+}
+
+/*tipografia*/
+
+h1 {
+	font-size: 30px;
+	font-weight: 450px;
+	letter-spacing: 0.1px;
+	margin-bottom: 25px;
+	color: black;
+}
+
+h2 {
+	font-size: 15px;
+	font-weight: 450px;
+	letter-spacing: 0.1px;
+	margin-bottom: 25px;
+	color: black;
+	text-align: relative;
+}
+
+p {
+	font-size: 18px;
+	font-weight: 450;
+	letter-spacing: 0.2px;
+	margin-bottom: 100px;
+	color: (28,28,28);
+	text-align: justify;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+/*servicos*/
+#servicos {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+}
+
+/*imagens*/
+.imagens {
+	width: 50%;
+	float: left;
+	margin:0 10px 5px 0;
+	border-radius: 5px 5px 5px 5px;
+}
+
+/*rodape*/
+footer {
+	background: black;
+	padding: 50px 0px 20px 0px;
+}
+
+.item-rede-social{
+	float: right;
+}
+
+/***********************Formatação dos links e letras************/
+a {
+	text-decoration: none;
+	padding: 5px 25px;
+	text-align: justify;
+}
+/*Links não visitados*/
+a:link {
+	color: #000;
+}
+
+/*Links vistados*/
+a:visited {
+	color: #000;
+}
+
+/*Links hover*/
+a:hover {
+	color: 	#4F4F4F;
+	text-decoration: none;
+	
+}
+
+/*Links active*/
+a:active {
+	color: #000;
+}
+
+.fonte {
+	font-family: Verdana, sans-serif
+	font-size: 10px;
+	text-align: center;
+}
+
